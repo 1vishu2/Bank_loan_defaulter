@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+venv/
+aienv/
+loan_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (optional)
+*.pkl
+*.cbm
+
+# Large data files (optional)
+data/*.csv
+
+# Streamlit
+
+.streamlit/
+
+
+# VS Code
+
+.vscode/
