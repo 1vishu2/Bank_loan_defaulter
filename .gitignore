@@ -6,7 +6,7 @@ __pycache__/
 .env
 venv/
 aienv/
-loan_env/
+
 
 # Jupyter
 .ipynb_checkpoints/
@@ -16,15 +16,10 @@ loan_env/
 Thumbs.db
 
 # Model files (optional)
-*.pkl
+
 *.cbm
 
-# Large data files (optional)
-data/*.csv
 
-# Streamlit
-
-.streamlit/
 
 
 # VS Code
