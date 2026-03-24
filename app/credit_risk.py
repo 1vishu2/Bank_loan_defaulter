@@ -23,7 +23,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    with open(r"catboost_pipeline.pkl", "rb") as f:
+    with open(r"models/catboost_pipeline.pkl", "rb") as f:
         return pickle.load(f)
 
 model = load_model()
