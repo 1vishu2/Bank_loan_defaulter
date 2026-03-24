@@ -11,25 +11,28 @@ This project predicts whether a customer is likely to **default on a loan** usin
 - Simple and interactive UI  
 
 ## 📂 Project Structure
+
+```
 Bank_loan_defaulter/
 │
 ├── app/
-│ ├── credit_risk.py
-│ └── catboost_pipeline.pkl
-|
+│   ├── credit_risk.py
+│   └── catboost_pipeline.pkl
+│
 ├── data/
-│ ├── credit_risk_cleaned.csv
-│ └── credit_risk_raw.csv
-|
+│   ├── credit_risk_cleaned.csv
+│   └── credit_risk_raw.csv
+│
 ├── models/
-│ ├── catboost_pipeline.pkl
-|
+│   └── catboost_pipeline.pkl
+│
 ├── notebooks/
-│ ├── bank_loan_eda.ipynb
-| ├── bank_model_gitready.ipynb
-|
+│   ├── bank_loan_eda.ipynb
+│   └── bank_model_gitready.ipynb
+│
 ├── requirements.txt
 └── README.md
+```
 
 ## 📊 Key Insights (Risk Factors)
 
